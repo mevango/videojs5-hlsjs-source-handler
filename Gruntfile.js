@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
-    require("matchdep").filter("grunt-*").forEach(grunt.loadNpmTasks);
+    grunt.loadNpmTasks('grunt-browserify');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.registerTask('default', ['browserify']);
 
