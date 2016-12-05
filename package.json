@@ -14,9 +14,7 @@
   },
   "dependencies": {
     "hls.js": "^0.5.17",
-    "videojs-quality-picker": "^0.0.3"
-  },
-  "devDependencies": {
+    "videojs-quality-picker": "^0.0.3",
     "grunt": "^0.4.5",
     "grunt-browserify": "4.0.1",
     "grunt-contrib-uglify": "^1.0.0",
